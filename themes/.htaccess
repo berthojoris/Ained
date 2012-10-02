@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond $1 !^(.*)/(cache)/(.*).([a-z]{3})
+RewriteRule ^(.*)$ /$1 [L]
